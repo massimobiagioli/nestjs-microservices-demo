@@ -16,8 +16,12 @@
     "baseUrl": ".",
     "paths": {
       "@nestjs-microservices-demo/shared": ["libs/shared/src/index.ts"],
-      "@nestjs-microservices-demo/shared/dto": ["libs/shared/src/lib/dto/index.ts"],
-      "@nestjs-microservices-demo/shared/entities": ["libs/shared/src/lib/entities/index.ts"],
+      "@nestjs-microservices-demo/shared/dto": [
+        "libs/shared/src/lib/dto/index.ts"
+      ],
+      "@nestjs-microservices-demo/shared/entities": [
+        "libs/shared/src/lib/entities/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
